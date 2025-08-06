@@ -1,0 +1,201 @@
+//base
+@use 'base/reset';
+@use 'base/variables' as vars;
+@use 'base/typography';
+@use 'base/functions';
+@use 'base/mixins';
+
+//components
+@use 'components/buttons';
+
+/*------------------------- Started main css -----------------------------*/
+.page-wrapper{}
+
+.eliminate-fear{
+    margin-top: 30px;
+    .ef-elements{
+        background-color: #f1f1f1;
+        padding: 50px 40px;
+    }
+    .review-with-line{
+        
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        span{
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            svg{
+                width: 32px;
+                height: 32px;
+            }
+        }
+        h4{
+            font-size: 28px;
+            font-weight: 600;
+            display: inline-block;
+        }
+    }
+    p.limited-offer-text{
+        text-align: center;
+        color: red;
+        font-size: 22px;
+    }
+    h1.eliminate-heading{
+        text-align: center;
+        max-width: 600px;
+        margin: auto;
+        
+    }
+    p.el-fear-para{
+         font-size: 25px;
+    }
+    .el-fear-action-btn{
+        margin-top: 25px;
+        a{
+
+        }
+    }
+    .money-back-text-wrapper{
+        margin-top: 10px;
+        text-align: center;
+        p.money-back-text{
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    .trust-pilot-text{
+        width: max-content;
+        margin: auto;
+        p{
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 15px;
+            gap: 10px;
+            img{
+                
+                height:28px;
+            }
+        }
+    }
+
+    .mastery-bundle{
+        text-align: center;
+        margin-top: 30px;
+        h2{
+            font-size: 36px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        p{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .case-book-image{
+            margin-top: 30px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .el-fear-testimonial{
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+
+        h1{
+            font-family: vars.$font-family-stylist;
+            letter-spacing: 4px;
+        }
+        .testimonial-ratings{
+            margin-top: 10px;
+            svg{
+                width: 30px;
+                height: 30px;
+            }
+        }
+        .testimonial-text{
+            p{
+                font-size: 25px;
+                font-style: italic;
+                letter-spacing: 1px;
+            }
+        }
+        .testimonial-person{
+            margin-top: 20px;
+            h3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                font-size: 24px;
+                font-style: italic;
+
+                span.tp-designation{
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+// end of eliminate fear section css
+
+// start css for recognized section
+.recognized-section{
+    
+    .recognized-section-elements{
+        background: linear-gradient(359deg, #0552B0 0%, #36A1CE 60%, #54D2E1 100%);
+        h2{
+            text-align: center;
+            line-height: 1.1em;
+            font-size: 34px;
+            font-style: italic;
+            padding: 15px;
+            color: #fff;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+}
+//end css for recognized section
+
+/* Award Section Started */
+
+.award-section{
+    margin-top: 20px;
+    .award-section-elements{
+        .award-heading{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            gap: 50px;
+            img{
+                height: 120px;
+            }
+            h2{
+                font-size: 30px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+
+        .award-image{
+            text-align: center;
+            margin-top: 25px;
+            
+            img{
+                max-width: 600px;
+                border-radius: 12px;
+            }
+        }
+    }
+}
+
+/* End of Award Section */

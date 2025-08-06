@@ -1,6 +1,7 @@
-@use '_variable.scss' as vars;
+@use '_variables.scss' as vars;
 
 @use '_mixins.scss';
+
 
 
 body{
@@ -15,7 +16,7 @@ body{
     h1{
 
         font-size: vars.$h1-font-size-xl;
-
+        line-height: 1.1em;
         @include mixins.responsive(medium){
             font-size: vars.$h1-font-size-md;
         }

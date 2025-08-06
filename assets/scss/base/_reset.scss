@@ -1,4 +1,4 @@
-@use '_variable.scss' as vars;
+@use '_variables.scss' as vars;
 @use '_mixins';
 
 *{
@@ -37,7 +37,7 @@ body{
     //site-container
     .site-container{
         width: 100%;
-        max-width: 1140px;
+        max-width: 1080px;
         margin: 0 auto;
         padding: 0 20px;      
     }

@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@font-face {
+  font-family: "Gagalin";
+  src: url("../fonts/Gagalin-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+body a {
+  text-decoration: none;
+}
+body p {
+  line-height: 1.6em;
+}
+body ul {
+  list-style-type: none;
+}
+body ul li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+body .site-container {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+html {
+  overflow-x: hidden;
+}
+@media (max-width: 576px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+body h1 {
+  font-size: 45px;
+  line-height: 1.1em;
+}
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 34px;
+  }
+}
+body h2 {
+  font-size: 42px;
+}
+@media (max-width: 768px) {
+  body h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  body h2 {
+    font-size: 32px;
+  }
+}
+
+.btn-primary {
+  background-color: #0097E1;
+  padding: 10px 35px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+/*------------------------- Started main css -----------------------------*/
+.eliminate-fear {
+  margin-top: 30px;
+}
+.eliminate-fear .ef-elements {
+  background-color: #f1f1f1;
+  padding: 50px 40px;
+}
+.eliminate-fear .review-with-line {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+}
+.eliminate-fear .review-with-line span {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.eliminate-fear .review-with-line span svg {
+  width: 32px;
+  height: 32px;
+}
+.eliminate-fear .review-with-line h4 {
+  font-size: 28px;
+  font-weight: 600;
+  display: inline-block;
+}
+.eliminate-fear p.limited-offer-text {
+  text-align: center;
+  color: red;
+  font-size: 22px;
+}
+.eliminate-fear h1.eliminate-heading {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.eliminate-fear p.el-fear-para {
+  font-size: 25px;
+}
+.eliminate-fear .el-fear-action-btn {
+  margin-top: 25px;
+}
+.eliminate-fear .money-back-text-wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+.eliminate-fear .money-back-text-wrapper p.money-back-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+.eliminate-fear .trust-pilot-text {
+  width: max-content;
+  margin: auto;
+}
+.eliminate-fear .trust-pilot-text p {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
+}
+.eliminate-fear .trust-pilot-text p img {
+  height: 28px;
+}
+.eliminate-fear .mastery-bundle {
+  text-align: center;
+  margin-top: 30px;
+}
+.eliminate-fear .mastery-bundle h2 {
+  font-size: 36px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.eliminate-fear .mastery-bundle p {
+  font-weight: 600;
+  font-size: 20px;
+}
+.eliminate-fear .mastery-bundle .case-book-image {
+  margin-top: 30px;
+}
+.eliminate-fear .mastery-bundle .case-book-image img {
+  width: 100%;
+}
+.eliminate-fear .el-fear-testimonial {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.eliminate-fear .el-fear-testimonial h1 {
+  font-family: "Gagalin", sans-serif;
+  letter-spacing: 4px;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-ratings {
+  margin-top: 10px;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-ratings svg {
+  width: 30px;
+  height: 30px;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-text p {
+  font-size: 25px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-person {
+  margin-top: 20px;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-person h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 24px;
+  font-style: italic;
+}
+.eliminate-fear .el-fear-testimonial .testimonial-person h3 span.tp-designation {
+  font-weight: normal;
+}
+
+.recognized-section .recognized-section-elements {
+  background: linear-gradient(359deg, #0552B0 0%, #36A1CE 60%, #54D2E1 100%);
+}
+.recognized-section .recognized-section-elements h2 {
+  text-align: center;
+  line-height: 1.1em;
+  font-size: 34px;
+  font-style: italic;
+  padding: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Award Section Started */
+.award-section {
+  margin-top: 20px;
+}
+.award-section .award-section-elements .award-heading {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+}
+.award-section .award-section-elements .award-heading img {
+  height: 120px;
+}
+.award-section .award-section-elements .award-heading h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 10px;
+}
+.award-section .award-section-elements .award-image {
+  text-align: center;
+  margin-top: 25px;
+}
+.award-section .award-section-elements .award-image img {
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+/* End of Award Section */
+
+/*# sourceMappingURL=style.css.map */
