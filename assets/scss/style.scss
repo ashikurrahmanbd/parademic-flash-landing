@@ -168,6 +168,10 @@
 
 .award-section{
     margin-top: 20px;
+    &.repeated-first-try-section{
+        margin: 40px 0;
+        
+    }
     .award-section-elements{
         .award-heading{
             display: flex;
@@ -195,7 +199,143 @@
                 border-radius: 12px;
             }
         }
+        .award-title{
+            text-align: center;
+            margin-top: 20px;
+            h2{
+                line-height: 1.2em;
+                font-size: 30px;
+                font-style: italic;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            }
+        }
+        .award-content{
+            margin-top: 25px;
+            p{
+                font-size: 25px;
+                max-width: 750px;
+                margin: auto;
+                text-align: center;
+            }
+        }
+        .first-try-section{
+            margin: 15px auto;
+            
+            a{
+
+            }
+            p{
+                font-weight: bold;
+                font-size: 18px;
+                letter-spacing: 1px;
+                text-align: center;
+                margin-top: 10px;
+            }
+            .rating-section{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                .star-ratings{
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+                p{
+                    margin: 0;
+                    display: inline-block;
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+            }
+        }
     }
 }
 
 /* End of Award Section */
+
+/* Started Client testimonial section */
+
+.client-testimonial-section{
+
+    .client-testimonial-section-elements{
+        .single-testimonial{
+            .catchy-texts{
+                margin-bottom: 35px;
+                h1{
+                    text-align: center;
+                    font-family: vars.$font-family-stylist;
+                    letter-spacing: 2px;
+                }
+                .testimonial-rating{
+                    text-align: center;
+                    margin-top: 20px;
+                    svg{
+                        width: 32px;
+                        height: 32px;
+                    }
+                }
+            }
+            .actual-testimonial{
+                
+                display: flex;
+                gap: 20px;
+                .person-image{
+                    img{
+                        width: 75px;
+                        height: 75px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+                .client-info-n-texts{
+                    max-width: 550px;
+                    background-color: #f1f1f1;
+                    padding: 20px;
+                    border-radius: 12px;
+                    
+                    h3{
+
+                    }
+                    p{
+                        font-size: 20px;
+                        letter-spacing: 1px;
+                    }
+                }
+
+                .testimonial-attachment{
+                    margin: 25px 0;
+                    img{
+                        max-width: 550px;
+                        border-radius: 12px;
+                    }
+                }
+
+                
+            }
+            
+        }
+    }
+}
+
+/* End of Client Testimonial Section */
+
+/* FB Client comment sectoin started */
+
+.client-comment-on-fb-section{
+    .client-comment-on-fb-section-elements{
+        .all-fb-client-comments{
+            width: max-content;
+            margin: auto;
+            img{
+                max-width: 900px;
+                
+            }
+        }
+    }
+}
+
+/* End of FB Client Comment Section */
