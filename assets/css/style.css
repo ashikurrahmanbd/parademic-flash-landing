@@ -633,6 +633,9 @@ body h2 {
   max-width: 650px;
   margin: auto;
 }
+.mastery-bundle-cta-section .mastery-bundle-cta-section-elements {
+  margin: 25px 0;
+}
 .mastery-bundle-cta-section .mastery-bundle-cta-section-elements .bundle-price {
   margin-top: 10px;
 }
