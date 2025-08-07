@@ -1,3 +1,5 @@
+@use '../base/mixins';
+
 .btn-primary{
     background-color: #0097E1;
     padding: 10px 35px;
@@ -19,6 +21,8 @@
         margin: auto;
     }
     
-    
+    @include mixins.responsive(small){
+        font-size: 16px;
+    }
 
 }
