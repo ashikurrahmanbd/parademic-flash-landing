@@ -339,3 +339,64 @@
 }
 
 /* End of FB Client Comment Section */
+
+/* Started Client Testimonial Cards Section */
+
+.client-testimonial-cards-section{
+    .client-testimonial-masonary-grid{
+        column-count: 2;
+        column-gap: 20px;
+        .single-testimonial{
+            break-inside: avoid;
+            margin-bottom: 20px;
+            background-color: #f1f1f1;
+            
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            .t-attachment{
+                img{
+                    width: 100%;
+                    border-radius: 8px 8px 0 0;
+                    object-fit: cover;
+                    height: auto;
+                }
+            }
+
+            .testimonial-info{
+                padding: 20px;
+                .client-name-n-status{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    h3{
+                        font-size: 20px;
+                    }
+                    svg{
+
+                    }
+                    span{
+                        font-size: 20px;
+                    }
+                }
+                p.date{
+                    font-size: 18px;
+                }
+                .client-ratings{
+                    display: flex;
+                    svg{
+                        height: 24px;
+                        width: 24px;
+                    }
+                }
+                .testimonial-content{
+                    margin-top: 10px;
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* End of Client Testimonial Cards Section */
